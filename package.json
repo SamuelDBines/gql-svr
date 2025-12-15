@@ -1,0 +1,34 @@
+{
+  "name": "gql-svr",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Samuel Bines (samuelbines@gmail.com)",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "esbuild": "^0.27.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "graphql": "^16.12.0"
+  }
+}
