@@ -21,3 +21,5 @@ await build({
   format: "cjs",
   outfile: "dist/index.cjs",
 });
+
+console.log("Build completed.");
