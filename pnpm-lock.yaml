@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      gql-svr:
-        specifier: file:gql-svr-0.1.0.tgz
-        version: file:gql-svr-0.1.0.tgz
       graphql:
         specifier: ^16.12.0
         version: 16.12.0
@@ -191,10 +188,6 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  gql-svr@file:gql-svr-0.1.0.tgz:
-    resolution: {integrity: sha512-pkqIcHTGNv6Cfdfiz3KM6AAIbZd8OzWI49sR2L5Hyb20A82rHUaKs8GxXplU67zOZlOqfjbosoh7tYfQPu1hiQ==, tarball: file:gql-svr-0.1.0.tgz}
-    version: 0.1.0
-
   graphql@16.12.0:
     resolution: {integrity: sha512-DKKrynuQRne0PNpEbzuEdHlYOMksHSUI8Zc9Unei5gTsMNA2/vMpoMz/yKba50pejK56qj98qM0SjYxAKi13gQ==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
@@ -319,10 +312,6 @@ snapshots:
       '@esbuild/win32-arm64': 0.27.1
       '@esbuild/win32-ia32': 0.27.1
       '@esbuild/win32-x64': 0.27.1
-
-  gql-svr@file:gql-svr-0.1.0.tgz:
-    dependencies:
-      graphql: 16.12.0
 
   graphql@16.12.0: {}
 
