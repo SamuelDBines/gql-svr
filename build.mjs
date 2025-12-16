@@ -5,6 +5,7 @@ const shared = {
   platform: "node",
   target: ["node18"],
   sourcemap: true,
+  minify: true,
   bundle: true,
   external: ["graphql"],
 };

@@ -1,6 +1,6 @@
 {
   "name": "gql-svr",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "files": [
     "dist"
   ],
@@ -16,9 +16,9 @@
     }
   },
   "scripts": {
-    "build": "node build.mjs && tsc -p tsconfig.json",
+    "build": "node build.mjså && tsc -p tsconfig.json",
     "clean": "rm -rf dist",
-    "pack": "pnpm run clean && pnpm run build && pnpm pack --pack-destination ./packs",
+    "pack": "pnpm run clean && pnpm run build && npm pack --pack-destination ./packs",
     "publish": "pnpm pack && pnpm publish --access public"
   },
   "keywords": [],
