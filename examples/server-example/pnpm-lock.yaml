@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      gql-svr:
+        specifier: ^0.1.4
+        version: 0.1.4
+
+packages:
+
+  gql-svr@0.1.4:
+    resolution: {integrity: sha512-wA6/sFyYkhUXKVNGdDkXCpgAy1s1uGqfpoX97XzfZrDiHWszYiE/MOx3HnBC4xA9uWfXx1JI4lwfSRxvtt14Qg==}
+
+  graphql@16.12.0:
+    resolution: {integrity: sha512-DKKrynuQRne0PNpEbzuEdHlYOMksHSUI8Zc9Unei5gTsMNA2/vMpoMz/yKba50pejK56qj98qM0SjYxAKi13gQ==}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+
+snapshots:
+
+  gql-svr@0.1.4:
+    dependencies:
+      graphql: 16.12.0
+
+  graphql@16.12.0: {}
