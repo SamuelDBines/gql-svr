@@ -17,7 +17,9 @@
   },
   "scripts": {
     "build": "node build.mjs && tsc -p tsconfig.build.json",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "publish:add": "pnpm add file:./gql-svr-0.1.0.tgz",
+    "publish": "pnpm run clean && pnpm run build && pnpm publish --access public"
   },
   "keywords": [],
   "author": "Samuel Bines (samuelbines@gmail.com)",
@@ -29,6 +31,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "gql-svr": "file:gql-svr-0.1.0.tgz",
     "graphql": "^16.12.0"
   }
 }
