@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "build": "node build.mjs && tsc -p tsconfig.build.json",
+    "build": "node build.mjs && tsc -p tsconfig.json",
     "clean": "rm -rf dist",
     "publish:add": "pnpm add file:./gql-svr-0.1.0.tgz",
     "publish": "pnpm run clean && pnpm run build && pnpm publish --access public"
