@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "build": "node scripts/build.mjs && tsc -p tsconfig.build.json",
+    "build": "node build.mjs && tsc -p tsconfig.build.json",
     "clean": "rm -rf dist"
   },
   "keywords": [],
