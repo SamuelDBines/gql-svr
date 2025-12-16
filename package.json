@@ -16,6 +16,7 @@
     }
   },
   "scripts": {
+    "build:tsc": "tsc -p tsconfig.json",
     "build": "node build.mjså && tsc -p tsconfig.json",
     "clean": "rm -rf dist",
     "pack": "pnpm run clean && pnpm run build && npm pack --pack-destination ./packs",
